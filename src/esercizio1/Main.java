@@ -23,6 +23,7 @@ public class Main {
 			String input = sc.nextLine();
 			if (lista.contains(input)) {
 				duplicate.add(input);
+				lista.remove(input);
 			} else {
 				lista.add(input);
 			}
